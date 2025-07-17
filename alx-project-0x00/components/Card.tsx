@@ -32,12 +32,12 @@
 
 
 
-
+//alx version
 
 
 import Image from "next/image"
-import HOUSE_IMAGE from "@/public/assets/house.png"
-import STAR_IMAGE from "@/public/assets/star.png"
+import HOUSE_IMAGE from "@/public/assets/images/house.png"
+import STAR_IMAGE from "@/public/assets/images/star.png"
 import React from "react"
 import Pill from "./Pill"
 
@@ -105,3 +105,37 @@ const Card: React.FC = () => {
 
 
 export default Card
+
+
+
+
+
+
+
+
+
+//chatgpt version
+
+// import Image from 'next/image';
+// import house from '../public/assets/images/house.png';
+// import star from '../public/assets/images/star.png';
+
+// const Card: React.FC = () => {
+//   return (
+//     <div className="w-[300px] border rounded-xl shadow-lg overflow-hidden">
+//       <Image src={house} alt="House" className="w-full h-[200px] object-cover" />
+//       <div className="p-4">
+//         <h3>Property Title</h3>
+//         <div className="flex items-center">
+//           <Image src={star} alt="star" width={16} height={16} />
+//           <span>4.9</span>
+//         </div>
+//         <p>$120 / night</p>
+//         <a href="#" className="text-blue-500">Check availability</a>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Card;
+
