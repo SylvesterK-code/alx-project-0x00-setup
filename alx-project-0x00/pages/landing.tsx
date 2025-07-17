@@ -1,5 +1,5 @@
 import Card from '@/components/card';
-import Pill from '@/components/Pill';
+
 
 
 const Landing: React.FC = () => {
