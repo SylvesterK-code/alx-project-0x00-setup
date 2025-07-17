@@ -1,5 +1,6 @@
-import Card from '@/components/card';
 
+import Card from '@/components/Card';
+import Pill from '@/components/Pill';
 
 
 const Landing: React.FC = () => {
